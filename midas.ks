@@ -6,7 +6,7 @@ set ship:control:pilotmainthrottle to 1.
 set ch to terminal:input:getchar().
 
 
-set mainEngine to SHIP:PARTSDUBBED("ME1")[0].
+set mainEngine to SHIP:PARTSDUBBED("ME")[0].
 
 if ch = "l" {
     stage.
